@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .perspective-\[1000px\] {
+    perspective: 1000px;
+  }
+  .translate-z-\[128px\] {
+    transform: translateZ(128px);
+  }
+  .-translate-z-\[128px\] {
+    transform: translateZ(-128px);
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  .rotate-y-90 {
+    transform: rotateY(90deg);
+  }
+  .-rotate-y-90 {
+    transform: rotateY(-90deg);
+  }
+  .rotate-x-90 {
+    transform: rotateX(90deg);
+  }
+  .-rotate-x-90 {
+    transform: rotateX(-90deg);
+  }
+}
