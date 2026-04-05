@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Facebook, Instagram } from 'lucide-react';
 
 export function Navbar() {
   return (
@@ -21,9 +22,17 @@ export function Navbar() {
           <Link href="#app" className="hover:text-white transition-colors">App</Link>
           <Link href="#roadmap" className="hover:text-white transition-colors">Roadmap</Link>
         </div>
-        <div className="flex items-center gap-4">
-          <Link href="#history" className="text-sm font-medium text-[#00ffd0] hover:text-white transition-colors">
-            Our Story
+        <div className="flex items-center gap-6">
+          <div className="hidden sm:flex items-center gap-4 text-slate-400">
+            <Link href="#" className="hover:text-[#00ffd0] transition-colors" aria-label="Facebook">
+              <Facebook size={18} />
+            </Link>
+            <Link href="#" className="hover:text-[#00ffd0] transition-colors" aria-label="Instagram">
+              <Instagram size={18} />
+            </Link>
+          </div>
+          <Link href="#contact" className="text-sm font-medium text-[#00ffd0] hover:text-white transition-colors">
+            Become Tester
           </Link>
         </div>
       </div>
