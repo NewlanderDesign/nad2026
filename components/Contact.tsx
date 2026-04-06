@@ -15,7 +15,7 @@ export function Contact() {
           >
             Get in Touch
           </motion.h2>
-          <p className="text-slate-400">Have questions about the development? Send us a message.</p>
+          <p className="text-slate-400">Have questions about the development or want to become a beta tester? Send us a message.</p>
         </div>
 
         <motion.form 

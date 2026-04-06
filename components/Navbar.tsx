@@ -23,6 +23,9 @@ export function Navbar() {
           <Link href="#roadmap" className="hover:text-white transition-colors">Roadmap</Link>
         </div>
         <div className="flex items-center gap-6">
+          <Link href="#contact" className="text-sm font-medium text-[#00ffd0] hover:text-white transition-all border border-[#00ffd0]/30 hover:border-[#00ffd0] hover:bg-[#00ffd0]/10 px-5 py-2 rounded-full">
+            Become Tester
+          </Link>
           <div className="hidden sm:flex items-center gap-4 text-slate-400">
             <Link href="#" className="hover:text-[#00ffd0] transition-colors" aria-label="Facebook">
               <Facebook size={18} />
@@ -31,9 +34,6 @@ export function Navbar() {
               <Instagram size={18} />
             </Link>
           </div>
-          <Link href="#contact" className="text-sm font-medium text-[#00ffd0] hover:text-white transition-colors">
-            Become Tester
-          </Link>
         </div>
       </div>
     </nav>
