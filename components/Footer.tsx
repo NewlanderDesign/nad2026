@@ -8,7 +8,7 @@ export function Footer() {
         <div className="col-span-1 md:col-span-2">
           <Link href="/" className="inline-block mb-6">
             <Image 
-              src="/websitelogo.png?v=4" 
+              src="/websitelogo.png?v=5" 
               alt="NAD Logo" 
               width={140} 
               height={48} 
@@ -32,10 +32,10 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="text-white font-medium mb-4">Legal</h4>
-          <ul className="space-y-3 text-sm text-slate-400">
-            <li><Link href="#" className="hover:text-[#00ffd0] transition-colors">Privacy Policy</Link></li>
-            <li><Link href="#" className="hover:text-[#00ffd0] transition-colors">Terms of Service</Link></li>
+          <h4 className="text-slate-500 font-medium mb-4">Legal</h4>
+          <ul className="space-y-3 text-sm text-slate-600">
+            <li className="cursor-not-allowed">Privacy Policy</li>
+            <li className="cursor-not-allowed">Terms of Service</li>
           </ul>
         </div>
       </div>
