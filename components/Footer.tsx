@@ -8,11 +8,12 @@ export function Footer() {
         <div className="col-span-1 md:col-span-2">
           <Link href="/" className="inline-block mb-6">
             <Image 
-              src="/websitelogo.png" 
+              src="/websitelogo.png?v=3" 
               alt="NAD Logo" 
               width={140} 
               height={48} 
               className="object-contain h-12 w-auto"
+              unoptimized={true}
             />
           </Link>
           <p className="text-sm text-slate-500 max-w-sm">
