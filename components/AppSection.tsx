@@ -53,13 +53,13 @@ export function AppSection() {
             </div>
           </motion.div>
 
-          <div className="relative h-[600px] flex items-center justify-center lg:justify-end mt-12 lg:mt-0">
+          <div className="relative h-[600px] flex items-center justify-center mt-12 lg:mt-0">
             <motion.div 
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1 }}
-              className="relative z-10 w-full h-full flex items-center justify-center lg:justify-end"
+              className="relative z-10 w-full h-full flex items-center justify-center"
             >
               <Image 
                 src="/phones-settings.png?v=3" 
