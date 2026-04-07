@@ -62,7 +62,7 @@ export function AppSection() {
               className="relative z-10 w-full h-full flex items-center justify-center"
             >
               <Image 
-                src="/phones-settings.png?v=3" 
+                src="/phones-settings.png?v=4" 
                 alt="NAD App Settings View" 
                 width={600} 
                 height={750} 

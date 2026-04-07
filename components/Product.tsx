@@ -29,7 +29,7 @@ export function Product() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#00ffd0]/20 to-transparent blur-[80px] rounded-full" />
               <Image 
-                src="/nad-module.png?v=3" 
+                src="/nad-module.png?v=4" 
                 alt="NAD Control Module" 
                 width={500} 
                 height={500} 
