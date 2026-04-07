@@ -47,49 +47,17 @@ export function Hero() {
 
         <div className="relative h-[600px] hidden lg:flex items-center justify-center">
           <motion.div 
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, scale: 0.95, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="absolute left-0 z-10 transform -rotate-12 scale-90 origin-bottom-right"
+            className="relative z-10 w-full h-full flex items-center justify-center"
           >
             <Image 
-              src="/android.png" 
-              alt="NAD Android App" 
-              width={280} 
-              height={580} 
-              className="object-contain drop-shadow-2xl"
-              priority
-            />
-          </motion.div>
-          
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.4 }}
-            className="absolute z-20"
-          >
-            <Image 
-              src="/nad-module.png" 
-              alt="NAD Control Module" 
-              width={320} 
-              height={320} 
-              className="object-contain drop-shadow-[0_0_50px_rgba(0,255,208,0.2)]"
-              priority
-            />
-          </motion.div>
-
-          <motion.div 
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: 0.6 }}
-            className="absolute right-0 z-10 transform rotate-12 scale-90 origin-bottom-left"
-          >
-            <Image 
-              src="/iphone.png" 
-              alt="NAD iOS App" 
-              width={280} 
-              height={580} 
-              className="object-contain drop-shadow-2xl"
+              src="/phones-controller.png" 
+              alt="NAD App Controller View" 
+              width={600} 
+              height={914} 
+              className="object-contain w-auto h-full max-h-[700px] drop-shadow-2xl"
               priority
             />
           </motion.div>

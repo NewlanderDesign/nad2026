@@ -55,33 +55,17 @@ export function AppSection() {
 
           <div className="relative h-[600px] flex items-center justify-center lg:justify-end mt-12 lg:mt-0">
             <motion.div 
-              initial={{ opacity: 0, y: 50, rotate: -5 }}
-              whileInView={{ opacity: 1, y: 0, rotate: -10 }}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1 }}
-              className="absolute z-10 right-20 md:right-32"
+              className="relative z-10"
             >
               <Image 
-                src="/android.png" 
-                alt="NAD Android App" 
-                width={280} 
-                height={580} 
-                className="object-contain drop-shadow-2xl"
-              />
-            </motion.div>
-            
-            <motion.div 
-              initial={{ opacity: 0, y: 100, rotate: 5 }}
-              whileInView={{ opacity: 1, y: 40, rotate: 10 }}
-              viewport={{ once: true }}
-              transition={{ duration: 1, delay: 0.2 }}
-              className="absolute z-20 right-0 md:right-10"
-            >
-              <Image 
-                src="/iphone.png" 
-                alt="NAD iOS App" 
-                width={280} 
-                height={580} 
+                src="/phones-settings.png" 
+                alt="NAD App Settings View" 
+                width={600} 
+                height={600} 
                 className="object-contain drop-shadow-2xl"
               />
             </motion.div>
