@@ -10,7 +10,7 @@ const roadmapItems = [
   { title: "Mobile App Development (iOS)", status: "Completed" },
   { title: "Mobile App Development (Android)", status: "In Progress" },
   { title: "Vehicle Testing", status: "In Progress" },
-  { title: "Beta Testers", status: "Upcoming" },
+  { title: "Beta Testers (3 kits)", status: "Upcoming" },
   { title: "Production Version", status: "Future" },
   { title: "Webshop Launch", status: "Future" },
   { title: "Public Release", status: "Future" }

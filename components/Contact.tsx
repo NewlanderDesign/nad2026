@@ -59,9 +59,9 @@ export function Contact() {
 
           <button 
             type="submit"
-            className="w-full h-14 rounded-xl bg-white text-[#0b0f14] font-medium hover:bg-slate-200 transition-colors"
+            className="w-full h-14 rounded-xl bg-[#00ffd0] text-[#0b0f14] font-medium hover:bg-[#00e6bb] transition-colors"
           >
-            Contact NAD
+            Send it!
           </button>
         </motion.form>
       </div>

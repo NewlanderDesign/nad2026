@@ -5,14 +5,14 @@ import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 
 const features = [
-  "Preset ride heights",
-  "Manual control",
-  "Sensor monitoring",
+  "Winter mode",
+  "Bar and PSI",
+  "Auto Connect",
   "System status",
   "Custom UI colors",
   "iOS and Android",
-  "Full tank pressure control",
-  "Rise on ignition"
+  "Tank pressure control",
+  "Sensor calibration"
 ];
 
 export function AppSection() {
@@ -62,7 +62,7 @@ export function AppSection() {
               className="relative z-10 w-full h-full flex items-center justify-center"
             >
               <Image 
-                src="/phones-settings.png?v=6" 
+                src="/phones-settings.png?v=7" 
                 alt="NAD App Settings View" 
                 width={600} 
                 height={750} 

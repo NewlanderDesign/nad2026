@@ -6,8 +6,8 @@ import { ActivitySquare, Palette, PlugZap, Power, Sliders, QrCode } from 'lucide
 const features = [
   {
     icon: ActivitySquare,
-    title: "Sensor Failover",
-    description: "Automatically switches to another height sensor if one fails"
+    title: "Sensor Fail Switch",
+    description: "Automatically switches from height to pressure sensor if one height sensor fails"
   },
   {
     icon: Palette,
@@ -22,11 +22,11 @@ const features = [
   {
     icon: Power,
     title: "Rise on Ignition",
-    description: "Automatically adjusts to ride height when vehicle starts"
+    description: "Automatically adjusts to preset height even if the phone isn't around, broke or stolen"
   },
   {
     icon: Sliders,
-    title: "Ride Height Presets",
+    title: "3 Height Presets",
     description: "Save and switch between driving heights"
   },
   {
