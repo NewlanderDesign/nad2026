@@ -29,7 +29,7 @@ export function Contact() {
             const formData = new FormData(e.currentTarget);
             const name = formData.get('name');
             const message = formData.get('message');
-            const email = 'YOUR_EMAIL@example.com';
+            const email = 'newlanderdesign@icloud.com';
             window.location.href = `mailto:${email}?subject=NAD Inquiry from ${name}&body=${message}`;
           }}
         >
