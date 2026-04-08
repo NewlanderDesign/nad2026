@@ -24,7 +24,14 @@ export function Contact() {
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
           className="space-y-6"
-          onSubmit={(e) => e.preventDefault()}
+          onSubmit={(e) => {
+            e.preventDefault();
+            const formData = new FormData(e.currentTarget);
+            const name = formData.get('name');
+            const message = formData.get('message');
+            const email = 'YOUR_EMAIL@example.com';
+            window.location.href = `mailto:${email}?subject=NAD Inquiry from ${name}&body=${message}`;
+          }}
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
@@ -32,6 +39,8 @@ export function Contact() {
               <input 
                 type="text" 
                 id="name" 
+                name="name"
+                required
                 className="w-full h-12 px-4 rounded-xl bg-[#1a232f] border border-white/10 text-white focus:outline-none focus:border-[#00ffd0] transition-colors"
                 placeholder="John Doe"
               />
@@ -41,6 +50,8 @@ export function Contact() {
               <input 
                 type="email" 
                 id="email" 
+                name="email"
+                required
                 className="w-full h-12 px-4 rounded-xl bg-[#1a232f] border border-white/10 text-white focus:outline-none focus:border-[#00ffd0] transition-colors"
                 placeholder="john@example.com"
               />
@@ -51,6 +62,8 @@ export function Contact() {
             <label htmlFor="message" className="text-sm font-medium text-slate-300">Message</label>
             <textarea 
               id="message" 
+              name="message"
+              required
               rows={6}
               className="w-full p-4 rounded-xl bg-[#1a232f] border border-white/10 text-white focus:outline-none focus:border-[#00ffd0] transition-colors resize-none"
               placeholder="How can we help?"

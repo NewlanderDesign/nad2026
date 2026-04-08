@@ -28,10 +28,10 @@ export function Navbar() {
             Become Tester
           </Link>
           <div className="hidden sm:flex items-center gap-4 text-slate-400">
-            <Link href="#" className="hover:text-[#00ffd0] transition-colors" aria-label="Facebook">
+            <Link href="https://facebook.com/YOUR_ACCOUNT" target="_blank" className="hover:text-[#00ffd0] transition-colors" aria-label="Facebook">
               <Facebook size={18} />
             </Link>
-            <Link href="#" className="hover:text-[#00ffd0] transition-colors" aria-label="Instagram">
+            <Link href="https://instagram.com/YOUR_ACCOUNT" target="_blank" className="hover:text-[#00ffd0] transition-colors" aria-label="Instagram">
               <Instagram size={18} />
             </Link>
           </div>
