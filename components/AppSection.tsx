@@ -59,13 +59,15 @@ export function AppSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1 }}
-              className="relative z-10 w-full h-full"
+              className="relative z-10 w-full h-full flex items-center justify-center"
             >
-              <div 
-                className="w-full h-full bg-contain bg-center bg-no-repeat drop-shadow-2xl"
-                style={{ backgroundImage: 'url(/phones-settings.png)' }}
-                role="img"
-                aria-label="NAD App Settings View"
+              <Image 
+                src="https://raw.githubusercontent.com/NewlanderDesign/nad2026/e3b2063f2fe25a143706a3f747cc3f83718f7128/public/phones-settings.png" 
+                alt="NAD App Settings View" 
+                width={600} 
+                height={750} 
+                className="object-contain w-auto h-full max-h-[700px] drop-shadow-2xl"
+                referrerPolicy="no-referrer"
               />
             </motion.div>
           </div>

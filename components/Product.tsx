@@ -26,13 +26,15 @@ export function Product() {
             transition={{ duration: 0.8 }}
             className="order-2 lg:order-1 flex justify-center lg:justify-start"
           >
-            <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[500px]">
+            <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#00ffd0]/20 to-transparent blur-[80px] rounded-full" />
-              <div 
-                className="relative z-10 w-full h-full bg-contain bg-center bg-no-repeat drop-shadow-2xl"
-                style={{ backgroundImage: 'url(/nad-module.png)' }}
-                role="img"
-                aria-label="NAD Control Module"
+              <Image 
+                src="https://raw.githubusercontent.com/NewlanderDesign/nad2026/a62fbf71ace611117956571b562d70ba52252b7c/public/nad-module.png" 
+                alt="NAD Control Module" 
+                width={500} 
+                height={500} 
+                className="relative z-10 object-contain drop-shadow-2xl"
+                referrerPolicy="no-referrer"
               />
             </div>
           </motion.div>

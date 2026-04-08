@@ -7,11 +7,14 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0b0f14]/80 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <div 
-            className="h-10 w-[120px] bg-contain bg-left bg-no-repeat"
-            style={{ backgroundImage: 'url(/websitelogo.png)' }}
-            role="img"
-            aria-label="NAD Logo"
+          <Image 
+            src="https://raw.githubusercontent.com/NewlanderDesign/nad2026/35b9e8923164a915fe0386afdd13ff7b4144bcff/public/websitelogo.png" 
+            alt="NAD Logo" 
+            width={120} 
+            height={40} 
+            className="object-contain h-10 w-auto"
+            priority
+            referrerPolicy="no-referrer"
           />
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">

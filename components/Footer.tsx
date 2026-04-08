@@ -7,11 +7,13 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-2">
           <Link href="/" className="inline-block mb-6">
-            <div 
-              className="h-12 w-[140px] bg-contain bg-left bg-no-repeat"
-              style={{ backgroundImage: 'url(/websitelogo.png)' }}
-              role="img"
-              aria-label="NAD Logo"
+            <Image 
+              src="https://raw.githubusercontent.com/NewlanderDesign/nad2026/35b9e8923164a915fe0386afdd13ff7b4144bcff/public/websitelogo.png" 
+              alt="NAD Logo" 
+              width={140} 
+              height={48} 
+              className="object-contain h-12 w-auto"
+              referrerPolicy="no-referrer"
             />
           </Link>
           <p className="text-sm text-slate-500 max-w-sm">
