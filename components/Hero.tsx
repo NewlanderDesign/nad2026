@@ -45,21 +45,18 @@ export function Hero() {
           </div>
         </motion.div>
 
-        <div className="relative h-[600px] hidden lg:flex items-center justify-center">
+        <div className="relative h-[400px] md:h-[600px] w-full flex items-center justify-center">
           <motion.div 
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="relative z-10 w-full h-full flex items-center justify-center"
+            className="relative z-10 w-full h-full"
           >
-            <Image 
-              src="https://raw.githubusercontent.com/NewlanderDesign/nad2026/main/public/phones-controller.png" 
-              alt="NAD App Controller View" 
-              width={600} 
-              height={914} 
-              className="object-contain w-auto h-full max-h-[700px] drop-shadow-2xl"
-              priority
-              referrerPolicy="no-referrer"
+            <div 
+              className="w-full h-full bg-contain bg-center bg-no-repeat drop-shadow-2xl"
+              style={{ backgroundImage: 'url(/phones-controller.png)' }}
+              role="img"
+              aria-label="NAD App Controller View"
             />
           </motion.div>
         </div>
