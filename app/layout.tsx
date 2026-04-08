@@ -15,6 +15,10 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: 'NAD | Newlander Air Management Design',
   description: 'Advanced Air Suspension Management system with mobile app control. Built for enthusiasts.',
+  icons: {
+    icon: 'https://raw.githubusercontent.com/NewlanderDesign/nad2026/a62fbf71ace611117956571b562d70ba52252b7c/public/nad-module.png',
+    apple: 'https://raw.githubusercontent.com/NewlanderDesign/nad2026/a62fbf71ace611117956571b562d70ba52252b7c/public/nad-module.png',
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
