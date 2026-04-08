@@ -15,7 +15,7 @@ export function Contact() {
     
     // IMPORTANT: You need to get your FREE access key from https://web3forms.com/
     // It takes 10 seconds and they just send it to your email.
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "ce57e626-97e8-4ff8-b52d-30c2d15a8dd5");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
