@@ -17,13 +17,13 @@ export function History() {
           </div>
           
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6">
-            Our Story
+            Story
           </h2>
           <p className="text-lg text-slate-400 mb-6 max-w-2xl mx-auto leading-relaxed">
-            NAD was born out of a necessity for a cleaner, more reliable air management system. Frustrated by cluttered installs and outdated interfaces, we set out to build a solution that enthusiasts actually want to use.
+            The idea first sparked in 2017, when I started diving into car shows across Europe. Attending events and driving my show car daily, I quickly noticed that many existing systems looked impressive but weren&apos;t built for long-term, practical use. Problems would arise during extended drives or repeated use, revealing that reliability was often overlooked.
           </p>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            Designed, engineered, and assembled with precision, our modules are built to withstand the demands of modern air suspension setups while keeping your trunk looking immaculate.
+            That&apos;s what inspired me to develop something better: a system designed not just for show, but for everyday performance, combining flexibility, durability, and real-world practicality. Every feature and improvement since then has been shaped by those experiences on the road and at events.
           </p>
         </motion.div>
       </div>

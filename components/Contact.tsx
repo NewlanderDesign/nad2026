@@ -15,7 +15,7 @@ export function Contact() {
     
     // IMPORTANT: You need to get your FREE access key from https://web3forms.com/
     // It takes 10 seconds and they just send it to your email.
-    formData.append("access_key", "ce57e626-97e8-4ff8-b52d-30c2d15a8dd5");
+    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -63,7 +63,7 @@ export function Contact() {
               >
                 <CheckCircle2 className="w-16 h-16 text-[#00ffd0] mx-auto mb-6" />
                 <h3 className="text-2xl font-bold text-white mb-2">Message Sent!</h3>
-                <p className="text-slate-400 mb-8">Thank you for reaching out. We'll get back to you as soon as possible.</p>
+                <p className="text-slate-400 mb-8">Thank you for reaching out. We&apos;ll get back to you as soon as possible.</p>
                 <button 
                   onClick={() => setStatus('idle')}
                   className="text-[#00ffd0] font-medium hover:underline"
