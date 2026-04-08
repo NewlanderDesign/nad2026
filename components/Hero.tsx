@@ -53,13 +53,12 @@ export function Hero() {
             className="relative z-10 w-full h-full flex items-center justify-center"
           >
             <Image 
-              src="https://raw.githubusercontent.com/NewlanderDesign/nad2026/main/public/phones-controller.png" 
+              src="/phones-controller.png" 
               alt="NAD App Controller View" 
               width={600} 
               height={914} 
               className="object-contain w-auto h-full max-h-[500px] md:max-h-[700px] drop-shadow-2xl"
               priority
-              referrerPolicy="no-referrer"
             />
           </motion.div>
         </div>

@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: 'NAD | Newlander Air Management Design',
   description: 'Advanced Air Suspension Management system with mobile app control. Built for enthusiasts.',
   icons: {
-    icon: 'https://raw.githubusercontent.com/NewlanderDesign/nad2026/main/public/nad-module.png',
-    apple: 'https://raw.githubusercontent.com/NewlanderDesign/nad2026/main/public/nad-module.png',
+    icon: '/nad-module.png',
+    apple: '/nad-module.png',
   },
 };
 
