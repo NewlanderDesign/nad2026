@@ -17,7 +17,7 @@ export function Footer() {
             />
           </Link>
           <p className="text-sm text-slate-500 max-w-sm">
-            Advanced Air Suspension Management systems. Prototype currently in development.
+            Newlander Air Management Design.
           </p>
         </div>
         

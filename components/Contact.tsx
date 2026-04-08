@@ -48,7 +48,7 @@ export function Contact() {
           >
             Get in Touch
           </motion.h2>
-          <p className="text-slate-400">Have questions about the development or want to become a beta tester? Send us a message.</p>
+          <p className="text-slate-400">Have questions about the development or want to become a beta tester? Send me a message.</p>
         </div>
 
         <div className="relative">
@@ -116,7 +116,7 @@ export function Contact() {
                     rows={6}
                     disabled={status === 'loading'}
                     className="w-full p-4 rounded-xl bg-[#1a232f] border border-white/10 text-white focus:outline-none focus:border-[#00ffd0] transition-colors resize-none disabled:opacity-50"
-                    placeholder="How can we help?"
+                    placeholder="How can I help?"
                   />
                 </div>
 

@@ -5,12 +5,12 @@ import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 
 const features = [
-  "Full mobile app control",
-  "Compact control module",
+  "BLE App (Bluetooth)",
+  "Compact design",
   "Smart sensor monitoring",
-  "Custom UI color for standby and active mode",
-  "Clean install design",
-  "Expandable system architecture"
+  "Custom UI color",
+  "Easy install",
+  "Mounting accessories"
 ];
 
 export function Product() {
@@ -47,10 +47,10 @@ export function Product() {
             className="order-1 lg:order-2"
           >
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6">
-              NAD Control Module
+              Control Module
             </h2>
             <p className="text-lg text-slate-400 mb-10 leading-relaxed">
-              The NAD control module is designed to deliver reliable and intelligent air suspension control with modern mobile integration.
+              The control module is designed to deliver reliable and intelligent air suspension control with modern mobile integration.
             </p>
             
             <ul className="space-y-4">

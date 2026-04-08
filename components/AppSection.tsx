@@ -8,8 +8,8 @@ const features = [
   "Winter mode",
   "Bar and PSI",
   "Auto Connect",
-  "System status",
-  "Custom UI colors",
+  "ECU Temp Protection",
+  "Bag Pressure protection",
   "iOS and Android",
   "Tank pressure control",
   "Sensor calibration"
