@@ -8,7 +8,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image 
-            src="/websitelogo.png" 
+            src="/websitelogo-v2.png" 
             alt="NAD Logo" 
             width={120} 
             height={40} 
