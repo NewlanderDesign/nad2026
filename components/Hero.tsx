@@ -53,7 +53,7 @@ export function Hero() {
             className="relative z-10 w-full h-full flex items-center justify-center"
           >
             <Image 
-              src="/phones-controller-v3.png" 
+              src="/phones-controller-v4.png" 
               alt="NAD App Controller View" 
               width={600} 
               height={914} 
