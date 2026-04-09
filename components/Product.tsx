@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'motion/react';
-import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 
 const features = [
@@ -28,7 +27,7 @@ export function Product() {
           >
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#00ffd0]/20 to-transparent blur-[80px] rounded-full" />
-              <Image 
+              <img 
                 src="/nad-module.png" 
                 alt="NAD Control Module" 
                 width={500} 

@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'motion/react';
-import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 
 const features = [
@@ -61,7 +60,7 @@ export function AppSection() {
               transition={{ duration: 1 }}
               className="relative z-10 w-full h-full flex items-center justify-center"
             >
-              <Image 
+              <img 
                 src="/phones-settings.png" 
                 alt="NAD App Settings View" 
                 width={600} 
