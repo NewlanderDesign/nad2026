@@ -12,7 +12,7 @@ const features = [
   {
     icon: Palette,
     title: "Custom App Colors",
-    description: "User can personalize app color theme"
+    description: "User can personalize app color theme for active and standby mode"
   },
   {
     icon: PlugZap,

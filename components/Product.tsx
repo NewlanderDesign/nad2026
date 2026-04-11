@@ -4,10 +4,10 @@ import { motion } from 'motion/react';
 import { CheckCircle2 } from 'lucide-react';
 
 const features = [
-  "BLE App (Bluetooth)",
+  "BLE 6.0 (bluetooth)",
   "Compact design",
   "Smart sensor monitoring",
-  "Custom UI color",
+  "RGB LED's",
   "Easy install",
   "Mounting accessories"
 ];

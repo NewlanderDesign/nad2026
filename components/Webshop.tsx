@@ -21,7 +21,7 @@ export function Webshop() {
           </div>
           
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6 relative z-10">
-            Webshop Coming Later
+            Webshop
           </h2>
           <p className="text-lg text-slate-400 mb-10 max-w-2xl mx-auto relative z-10">
             The NAD webshop will include controllers, harnesses and complete air management kits.
